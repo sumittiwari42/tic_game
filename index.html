@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UFT-8">
+	<title>Tic Tac Toe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="game.css">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+	<div class="container">
+
+		<div class="game-head">
+			<img src="tic-tac-tow.jpg" alt="">
+		</div>
+    <div class="game-container">
+    	<div class="col-lg-7 col-md-8 col-sm-8">
+		    <div class="tic-tac-toe">
+					<div id="square1" class="tile free"></div>
+					<div id="square2" class="tile free"></div>
+					<div id="square3" class="tile free"></div>
+					<div id="square4" class="tile free"></div>
+					<div id="square5" class="tile free"></div>
+					<div id="square6" class="tile free"></div>
+					<div id="square7" class="tile free"></div>
+					<div id="square8" class="tile free"></div>
+					<div id="square9" class="tile free"></div>
+			  </div>
+			  <div class="button-r" id="reset-button">
+			  	<button class="start-btn">Restart</button>
+			  </div>
+    	</div>
+
+    	<div class="col-lg-4 col-md-4 col-sm-4 left-game">
+    	  <div class="game-wrape">
+    	  	<h4>player</h4>
+    	  	<button class="p-bnt">single player</button>
+
+    	  	<ul class="player-list">
+    	  		<li>
+    	  			<p>you</p>
+    	  			<img src="orange.jpg" alt="first">
+    	  		</li>
+    	  		<li>
+    	  		  <p>computer</p>
+    	  			<img src="leaf.jpg" alt="Second">
+    	  		</li>
+    	  	</ul>
+    	  </div>
+
+    	  <div class="result">
+    	  	<button class="re-btn">result</button>
+    	  	<div class="re-content running">
+    	  		<h4>Waiting For Result</h4>
+    	  		<!-- <img src="sad.png" alt=""> -->
+    	  	</div> 
+
+    	  	<div class="re-content lost">
+    	  		<h4>You loose</h4>
+    	  		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
+    	  		<img src="sad.png" alt="">
+    	  	</div>   	
+
+    	  	<div class="re-content draw">
+    	  		<h4>Draw</h4>
+    	  		<p>Try playing again!</p>
+    	  		<img src="sad.png" alt="">
+    	  	</div>
+
+    	  	<div class="re-content won">
+    	  		<h4>You Won</h4>
+    	  		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
+    	  		<img src="sad.png" alt="">
+    	  	</div>   	
+    	  </div>
+<!--     		<p>A simple game of tic tac toe to play<br/>
+				You play as <span class="red">X</span> and the computer plays as <span class="blue">O</span><br/>
+				Start by choosing a square to play</p> -->
+    	</div>
+    	<div class="col-lg-1"></div>
+    </div>
+	</div>
+
+
+
+</body>
+</html>
